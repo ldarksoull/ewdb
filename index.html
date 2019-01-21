@@ -1,110 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width initial-scale=2 maximum-scale=0.45">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
+<style>
+.index-main-section{
+    min-height: 600px;
+}
+.common-text a{
+    display: block;
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'romulC';
+}
+</style>
 <body>
     <div class="main-wrapper">
-        <aside class="main-sidebar">
-            <div class="main-logo">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <nav class="classess-list">
-                <ul>
-                    <li class="class-item"><a href="#" class="class-link">Вампир</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Призрак</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Дитя тьмы</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Танцор тьмы</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Жнец хаоса</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Рыцарь крови</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Ассасинн</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Владыка огня</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Повелитель ветра</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Лорд тьмы</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Жрец смерти</a></li>
-                    <li class="class-item"><a href="#" class="class-link">Оккультист</a></li>
-                </ul>
-            </nav>
-        </aside>
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
         <header class="header">
-            <nav class="race-list">
+            <nav class="race-list">  
                 <ul>
-                    <li class="races-item"><a href="#">Империя</a></li>
-                    <li class="races-item"><a href="#">Светлые эльфы</a></li>
-                    <li class="races-item"><a href="#">Темные эльфы</a></li>
-                    <li class="races-item"><a href="#">Артеи</a></li>
-                    <li class="races-item"><a href="#">Гномы</a></li>
-                    <li class="races-item"><a href="#">Орки</a></li>
+                    <li class="races-item"><a href="#"><img src="img/Империя.jpg" alt=""></a></li>
+                    <li class="races-item"><a href="#"><img src="img/Се.jpg" alt=""></a></li>
+                    <li class="races-item"><a href="darkelfs.html"><img src="img/Тем.эльфы.jpg" alt=""></a></li>
+                    <a href="index.html" class="main-logo">
+                        <img src="img/lo2io.png" alt="logo">
+                    </a>
+                    <li class="races-item"><a href="#"><img src="img/Артеи.jpg" alt=""></a></li>
+                    <li class="races-item"><a href="#"><img src="img/Гномы.jpg" alt=""></a></li>
+                    <li class="races-item"><a href="#"><img src="img/Орки.jpg" alt=""></a></li>
                 </ul>
             </nav>
         </header>
-        <section class="main-section">
-            <header class="section-header">
-                <h2 class="section-title">Вампир</h2>
-                <div class="class-info-wrapper">
-                    <div class="class-info">
-                        <span class="info-title">Броня:</span>&nbsp;&nbsp;<span class="info-text">Легкая</span>
+        <main>
+            <section class="main-section index-main-section">
+                <header class="section-header">
+                    <h2 class="section-title">база знаний</h2>
+                    <h2 class="section-title"><a href="https://endlesswar.online/">Endless war</a></h2>
+                    <p class="common-text">
+                        Данная база является неофициальной и находится в разработке (база профессий), некоторая информация может отстутствовать или не соответствовать действительности, если вы заметили ошибки или неточности или же у вас есть желание помочь в развитии проекта, то напишите нам в скайпе (контакты ниже).
+                    </p>
+                    <div class="common-text">
+                        <div class="authors">Готово:</div>
+                        <a href="vampire.html">Вампир</a>
+                        <a href="vladika-ognya.html">Владыка огня</a>
+                        <a href="povelitel-vetra.html">Повелитель ветра</a>
+                        <a href="lord-darkness.html">Лорд тьмы</a>
+                        <a href="priest-of-death.html">Жрец смерти</a>
                     </div>
-                    <div class="class-info">
-                        <span class="info-title">Оружие:</span>&nbsp;&nbsp;<span class="info-text">Двуручный меч</span>
-                    </div>
-                </div>
-            </header>
-            <section class="table">
-                <div class="table-title">
-                    <div class="table-col-1 table-title-col"></div>
-                    <div class="table-col-2 table-title-col">Название</div>
-                    <div class="table-col-3 table-title-col">Описание</div>
-                    <div class="table-col-4 table-title-col">Уровень изучения</div>
-                </div>
-                <div class="skill-type">Пассивные навыки</div>
-                <div class="section-item">
-                    <div class="table-col-1 table-col"><img src="img/Skill0100_0.jpg" alt=""></div>
-                    <div class="table-col-2 table-col">Вампир</div>
-                    <div class="table-col-3 table-col">Вампир своими ударами будет поглащать вдвое больше жизненных сил, чем обычными атаками.
-                            Убив противника, он выпьет кровь и получит  училение общей защиты и сверхрегенерацию на короткий промежуток времени. Дополнительно навык увеличивает  физическую атаку, скорость атаки, силу критических ударов и вампиризм.</div>
-                    <div class="table-col-4 table-col">20</div>
-                </div>
-                <div class="section-item">
-                    <div class="table-col-1 table-col"><img src="img/Skill0100_0.jpg" alt=""></div>
-                    <div class="table-col-2 table-col">Сила вампира</div>
-                    <div class="table-col-3 table-col">Навык,  увеличивающий скорость бега физическую атаку и меткость.  Также навык частично защищает от
-                            умений кинжальщиков и лучников.</div>
-                    <div class="table-col-4 table-col">20</div>
-                </div>
-                <div class="skill-type">Активные скиллы</div>
-                <div class="section-item">
-                    <div class="table-col-1 table-col"><img src="img/Skill0100_0.jpg" alt=""></div>
-                    <div class="table-col-2 table-col">Сближение с жертвой</div>
-                    <div class="table-col-3 table-col">Вампир совершает мгновенное сближение с жертвой и парализует ее.</div>
-                    <div class="table-col-4 table-col">20</div>
-                </div>
-                <div class="section-item">
-                    <div class="table-col-1 table-col"><img src="img/Skill0100_0.jpg" alt=""></div>
-                    <div class="table-col-2 table-col">Сближение с жертвой</div>
-                    <div class="table-col-3 table-col">Вампир совершает мгновенное сближение с жертвой и парализует ее.</div>
-                    <div class="table-col-4 table-col">20</div>
-                </div>
-                <div class="section-item">
-                    <div class="table-col-1 table-col"><img src="img/Skill0100_0.jpg" alt=""></div>
-                    <div class="table-col-2 table-col">Сближение с жертвой</div>
-                    <div class="table-col-3 table-col">Вампир совершает мгновенное сближение с жертвой и парализует ее.</div>
-                    <div class="table-col-4 table-col">20</div>
-                </div>
-                <div class="section-item">
-                    <div class="table-col-1 table-col"><img src="img/Skill0100_0.jpg" alt=""></div>
-                    <div class="table-col-2 table-col">Сближение с жертвой</div>
-                    <div class="table-col-3 table-col">Вампир совершает мгновенное сближение с жертвой и парализует ее.</div>
-                    <div class="table-col-4 table-col">20</div>
-                </div>
+                </header>
             </section>
+        </main>
+        <footer class="main-footer">
+            <div class="authors">Создатели:</div> 
+            <br>
+            <p class="author"><a href="skype:ldarksoull51?chat"><img src="https://img.icons8.com/color/16/000000/skype.png"><span class="de">Quaden</span></a></p>
+            <br>
+            <p class="author"><a href="skype:tima_ma4o?chat"><img src="https://img.icons8.com/color/16/000000/skype.png"><span class="humans">y3u</span></a></p>
+            <a class="yandex" href="https://money.yandex.ru/to/41001670921240"><img src="img/yandex_dengi_product_icon_rgb.png" alt=""></a> 
             
-            
-        </section>
+        </footer>
     </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+</script>
+<script src="js/script.js"></script>
+
 </html>
